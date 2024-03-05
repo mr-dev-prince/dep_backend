@@ -1,11 +1,12 @@
 {
-  "name": "server",
+  "name": "app",
   "version": "1.0.0",
   "description": "Backend - express and nodejs",
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon app.js "
+    "install-server": "npm i",
+    "start-server": "node app.js"
   },
   "keywords": [
     "Backend",
